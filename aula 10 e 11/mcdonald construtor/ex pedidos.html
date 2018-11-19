@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Construtor Mcdonald</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div id="div1" class="col-md-12 border p-3 mb-2 rounded">
+                <img src="https://pbs.twimg.com/profile_images/754316880010108929/ICET1La3_400x400.jpg" width="50rem"
+                    alt="">
+                <h1 class="">Benvindo ao McDonalds</h1>
+            
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link text-light bg-dark " href="#">Registo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light bg-dark" href="#">Verificar Pedidos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light bg-dark" href="#">Mostrar fatura</a>
+                </li>
+            
+              </ul>
+            </div>
+            <div id="pedidos" class="col-md-12 border p-3 mb-2 rounded">
+                <h3>Por favor registe o pedido</h3><br>
+                <label for="nome">Coloque o nome</label>
+                <input id="ipt1" type="text"><br>
+                <label for="pedido">Coloque o pedido</label>
+                <input id="ipt2" type="text"><br>
+                <label for="extra">Coloque extra </label>
+                <input id="ipt3" type="text"><br>
+                <br>
+                <button id="subpedido" class="btn-success">Submeter pedido</button>
+                <button id="subfatura" class="btn-warning">Submeter Fatura</button>
+            
+
+            </div>
+
+
+
+            <div id="papel2" class="col-md-12 border p-3 mb-2 rounded">
+                <h3>Mostrar os pedidos</h3>
+                <div>
+                    <table id="tabela1" class="table table-active">
+                        <thead>
+                            <tr>
+                                <th>Recibo</th>
+                                <th>Cliente</th>
+                                <th>Pedido</th>
+                                <th>Extra</th>
+                            </tr>
+                        </thead>
+
+                    </table>
+                </div>
+            </div> 
+
+            <div id="papel" class="col-md-12 border p-3 mb-2 rounded">
+                <h2 style="text-align: center ">Fatura do cliente</h2>
+
+                <div class="border center">
+
+                    <table id="tabela" class="table table-warning">
+                        <thead>
+                            <tr>
+                                <th>Recibo</th>
+                                <th>Cliente</th>
+                                <th>Pedido</th>
+                                <th>Extra</th>
+                            </tr>
+                        </thead>
+
+                    </table>
+
+
+                    <p id="p1" hidden></p>
+
+
+
+                </div>
+            </div>
+           
+
+        </div>
+
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    
+    <script src="js/database.js"></script>   
+    <script src="js/class.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

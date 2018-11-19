@@ -1,0 +1,120 @@
+body{
+    background-color: #e6e7e4;
+    
+    
+}
+.center {
+    margin: auto;
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+}
+
+#imagem {
+    width: 10em;
+    height: 15em;
+    border:1px solid;
+
+}
+#descricao {
+    text-align: justify;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    
+
+}
+#titulo {
+    font-size: 30px;
+
+}
+#div1{
+    background-color: #7F4145;
+    color: white;
+    
+}
+#tinder{
+    border: 3px dotted #7F4145;
+    display:none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button{
+    background-color: rgba(76, 137, 187, 0.966);
+    border-radius: 15px;
+    color: white;
+    padding: 7px ;
+    text-align: center;
+    
+}
+#containerlogin{
+    background-color: #f9f9f9;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
+#divpesquisar{
+    margin-top: 40px;
+
+}
+
+
+
+.h1{
+    font-family: fantasy;
+}
+#tabelalike{
+    display:none;
+    margin: auto;
+    padding: 2em;
+    border: 1px solid rgb(151, 149, 149);
+
+}
+thead{
+    background-color: rgb(172, 98, 103);
+    color: white;
+    
+}
+tr:nth-child(even)
+    {background-color: #f2f2f2;
+    }
+
+.tinder-footer {
+    padding: 1.0rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+  }
+.tinder-footer p:last-child {
+    margin-bottom: 0;
+}
+
+#botaopesquisar{
+    border: none;
+    background-color: #f9f9f9;
+
+}
+.modal-header{
+    background-color: #7F4145;
+    color: white;
+    height: 45px;
+}
+.modal-body{
+    background-color: #e6e7e4;
+    
+}
+.modal-footer{
+    background-color: #7F4145;
+    height: 40px;
+}
+.label{
+    margin-left: 1.5em;
+}
